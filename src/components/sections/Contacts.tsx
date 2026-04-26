@@ -37,13 +37,13 @@ export function Contacts() {
 
           <Reveal delay={80}>
             <a
-              href="mailto:abitur@tsu.tula.ru"
+              href="mailto:info@tsu.tula.ru"
               className="group block rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-6 md:p-8 backdrop-blur hover:border-primary/50 hover:bg-primary-foreground/10 transition-all"
             >
               <div className="flex items-center gap-3 text-primary-glow text-sm font-mono uppercase tracking-wider">
                 <Mail className="h-4 w-4" /> Email
               </div>
-              <div className="mt-3 font-display text-2xl md:text-3xl font-bold">abitur@tsu.tula.ru</div>
+              <div className="mt-3 font-display text-2xl md:text-3xl font-bold">info@tsu.tula.ru</div>
               <div className="mt-1 text-sm text-primary-foreground/60">Ответим в течение рабочего дня</div>
             </a>
           </Reveal>
@@ -67,7 +67,7 @@ export function Contacts() {
               </div>
               <div className="mt-4 flex flex-wrap gap-2">
                 <Button asChild variant="outline" className="border-primary-foreground/20 bg-primary-foreground/5 text-primary-foreground hover:bg-primary-foreground/10">
-                  <a href="https://vk.com/ipmkn_tulsu" target="_blank" rel="noreferrer">
+                  <a href="https://vk.com/pm2kn" target="_blank" rel="noreferrer">
                     ВКонтакте <ExternalLink className="h-3.5 w-3.5" />
                   </a>
                 </Button>
@@ -88,7 +88,7 @@ export function Contacts() {
         <Reveal>
           <div className="mt-14 text-center">
             <Button asChild size="lg" className="bg-gradient-accent text-primary-foreground hover:opacity-90 shadow-glow">
-              <a href="https://priem.tulsu.ru/" target="_blank" rel="noreferrer">
+              <a href="https://abitur71.tsu.tula.ru/how-to-apply" target="_blank" rel="noreferrer">
                 Подать документы онлайн
               </a>
             </Button>
